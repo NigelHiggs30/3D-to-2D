@@ -10,11 +10,21 @@ This software is a Python application that uses the Pyglet library to render a 3
 - **Rotation and Snapshot:** Rotate the model iteratively and capture snapshots of each rotated view, saving them to a directory.
 - **Snapshot Directory:** Automatically create a unique directory based on the current date and time to store snapshots.
 
+The script will perform the following steps:
+
+Open a Pyglet window with a 3D view.
+Load the specified 3D model.
+Apply a random initial rotation to the model on the x-axis.
+Set up ambient lighting.
+Rotate the model around the y-axis iteratively.
+Capture and save 30 snapshots of the model in different rotated views.
+View the snapshots in the created directory. The directory will be named in the format Img/Img_YYYYMMDD_HHMMSS, where YYYYMMDD_HHMMSS is the current date and time.
 
 ## Configuration
 You can configure the initial rotation angles, rotation speed, and axis of rotation by modifying the parameters in the script:
 
-```initial_rotation_x = random.randint(65, 115)
+```
+initial_rotation_x = random.randint(65, 115)
 initial_rotation_y = 0
 initial_rotation_z = 0
 ```
