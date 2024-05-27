@@ -13,3 +13,8 @@ This software is a Python application that uses the Pyglet library to render a 3
 
 ## Configuration
 You can configure the initial rotation angles, rotation speed, and axis of rotation by modifying the parameters in the script:
+
+```initial_rotation_x = random.randint(65, 115)
+initial_rotation_y = 0
+initial_rotation_z = 0
+```
