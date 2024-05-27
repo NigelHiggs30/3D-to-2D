@@ -20,7 +20,7 @@ The script will perform the following steps:
 6. Capture and save 30 snapshots of the model in different rotated views.
 7. View the snapshots in the created directory. The directory will be named in the format Img/Img_YYYYMMDD_HHMMSS, where YYYYMMDD_HHMMSS is the current date and time.
 
-### Configuration
+## Configuration
 You can configure the initial rotation angles, rotation speed, and axis of rotation by modifying the parameters in the script:
 
 ```
@@ -28,12 +28,12 @@ initial_rotation_x = random.randint(65, 115)
 initial_rotation_y = 0
 initial_rotation_z = 0
 ```
-#### Rotation Scheduling:
+## Rotation Scheduling:
 ```
 rotating_obj.schedule_rotation(angle_increment=10, rotation_axis='y', interval=1 / 120)
 ```
 
-##### Example 
+## Example 
 ```
 if __name__ == '__main__':
     initial_rotation_x = random.randint(65, 115)
