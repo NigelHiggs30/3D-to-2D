@@ -9,3 +9,7 @@ This software is a Python application that uses the Pyglet library to render a 3
 - **Lighting:** Configure ambient lighting for better visualization.
 - **Rotation and Snapshot:** Rotate the model iteratively and capture snapshots of each rotated view, saving them to a directory.
 - **Snapshot Directory:** Automatically create a unique directory based on the current date and time to store snapshots.
+
+
+## Configuration
+You can configure the initial rotation angles, rotation speed, and axis of rotation by modifying the parameters in the script:
